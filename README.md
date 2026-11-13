@@ -1,16 +1,56 @@
-# React + Vite
+# Driving School Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This project is a driving license practice application developed using ReactJS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application helps students prepare for their driving license exams by practicing questions about traffic rules and road signs.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Driving license practice questions
+- Car and motorcycle driving tests
+- Multiple-choice questions
+- Score calculation
+- Results and answer review
+- Arabic, English, and French question categories
+- Responsive design for mobile and desktop
 
-## Expanding the Oxlint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- ReactJS
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git and GitHub
+
+## Installation
+
+1. Clone the GitHub repository.
+2. Open the project folder in VS Code.
+3. Open the terminal.
+4. Install dependencies:
+
+   `npm install`
+
+5. Start the project:
+
+   `npm run dev`
+
+6. Open the localhost address shown in the terminal.
+
+## Screenshots
+
+Screenshots of the application will be added as the React pages are developed.
+
+## Author
+
+Majd Mouhammad  
++961 81 342 594
+
+## Course
+
+CSCI426 – Advanced Web Programming
+
+Project Phase 1 – Fall 2026
