@@ -4,27 +4,27 @@ import "../css/Home.css";
 
 export default function Home() {
   return (
-    <main className="home" dir="rtl">
+    <main className="home">
       <div className="home-card">
         <div className="home-icon">🚗</div>
 
-        <h1>مدرسة ميشال حنوش لتعليم القيادة</h1>
+        <h1>Majd Driving School</h1>
 
-        <h2>اختبار رخصة القيادة</h2>
+        <h2>Driving License Practice Test</h2>
 
         <p>
-          اختبر معلوماتك في إشارات المرور
-          واستعد لامتحان رخصة القيادة.
+          Test your knowledge of traffic signs and
+          prepare for your driving license exam.
         </p>
 
         <div className="home-info">
-          <span>📝 10 أسئلة</span>
-          <span>🚦 إشارات المرور</span>
-          <span>🏆 نتيجة فورية</span>
+          <span>📝 10 Questions</span>
+          <span>🚦 Traffic Signs</span>
+          <span>🏆 Instant Results</span>
         </div>
 
         <Link to="/quiz" className="start-btn">
-          ابدأ الاختبار
+          Start Practicing
         </Link>
       </div>
     </main>

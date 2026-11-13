@@ -10,16 +10,21 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <header className="header" dir="rtl">
-        <h2>🚗 مدرسة ميشال حنوش</h2>
+      <header className="navbar">
+        <div className="navbar-content">
+          <NavLink to="/" className="brand">
+            <span>🚗</span>
+            <span>Majd Driving School</span>
+          </NavLink>
 
-        <nav>
-          <NavLink to="/" end>الرئيسية</NavLink>
-          <NavLink to="/quiz">الاختبار</NavLink>
-          <NavLink to="/results">النتيجة</NavLink>
-          <NavLink to="/about">من نحن</NavLink>
-          <NavLink to="/contact">اتصل بنا</NavLink>
-        </nav>
+          <nav className="nav-links">
+            <NavLink to="/" end>Home</NavLink>
+            <NavLink to="/quiz">Quiz</NavLink>
+            <NavLink to="/results">Results</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
+          </nav>
+        </div>
       </header>
 
       <Routes>
