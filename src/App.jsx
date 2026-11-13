@@ -3,7 +3,6 @@ import { Routes, Route, NavLink } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Tests from "./pages/Tests";
 import Quiz from "./pages/Quiz";
 import Results from "./pages/Results";
 import Contact from "./pages/Contact";
