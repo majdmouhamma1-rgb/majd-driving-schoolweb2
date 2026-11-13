@@ -1,0 +1,43 @@
+
+.results {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #0002;
+}
+
+.results h1 {
+  color: #222;
+}
+
+.score {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 25px 0;
+  color: #2563eb;
+}
+
+.pass {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+.restart-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.restart-btn:hover {
+  background: #1d4ed8;
+}
