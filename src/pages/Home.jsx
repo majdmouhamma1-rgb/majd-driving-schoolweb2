@@ -1,21 +1,30 @@
 
 import { Link } from "react-router-dom";
+import "../css/Home.css";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Michel Hanouch Driving School</h1>
+    <main className="home" dir="rtl">
+      <div className="home-card">
+        <div className="home-icon">🚗</div>
 
-      <p>
-        Welcome! Practice driving license questions
-        and prepare for your driving exam.
-      </p>
+        <h1>مدرسة ميشال حنوش لتعليم القيادة</h1>
 
-      <h2>Choose Your Driving Test</h2>
+        <h2>اختبار رخصة القيادة</h2>
 
-      <div>
-        <Link to="/tests">
-          <button>Start Practicing</button>
+        <p>
+          اختبر معلوماتك في إشارات المرور
+          واستعد لامتحان رخصة القيادة.
+        </p>
+
+        <div className="home-info">
+          <span>📝 10 أسئلة</span>
+          <span>🚦 إشارات المرور</span>
+          <span>🏆 نتيجة فورية</span>
+        </div>
+
+        <Link to="/quiz" className="start-btn">
+          ابدأ الاختبار
         </Link>
       </div>
     </main>
