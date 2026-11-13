@@ -54,3 +54,20 @@ Majd Mouhammad
 CSCI426 – Advanced Web Programming
 
 Project Phase 1 – Fall 2026
+
+## Website Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Quiz Page
+![Quiz Page](screenshots/quiz.png)
+
+### Results Page
+![Results Page](screenshots/results.png)
+
+### About Page
+![About Page](screenshots/about.png)
+
+### Contact Page
+![Contact Page](screenshots/contact.png)
