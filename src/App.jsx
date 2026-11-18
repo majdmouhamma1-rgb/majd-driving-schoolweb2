@@ -18,7 +18,7 @@ export default function App() {
           </NavLink>
 
           <nav className="nav-links">
-            <NavLink to="/" end>Home</NavLink>
+            <NavLink to="/" >Home</NavLink>
             <NavLink to="/quiz">Quiz</NavLink>
             <NavLink to="/results">Results</NavLink>
             <NavLink to="/about">About</NavLink>
